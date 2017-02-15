@@ -16,6 +16,7 @@ RUN apt-get update
 #install mongoDB
 RUN apt-get install -y mongodb-10gen
 
+RUN apt-get update
 #create default data directory
 RUN mkdir -p /data/db
 
